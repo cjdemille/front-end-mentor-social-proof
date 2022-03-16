@@ -1,0 +1,172 @@
+body{
+    font-size: 15px; 
+    font-family:'Spartan' , sans-serif;
+    font-weight: 400;
+    width:90vw;
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    text-align:center;
+    justify-content: center;
+}
+
+/* header styles  */
+
+h1{
+    font-weight: 5=700; 
+    color:hsl(300, 43%, 22%);
+    margin: 1em;
+}
+header p{
+    margin:1em 1em 3em 1em;
+    color:hsl(303, 10%, 53%);
+}
+
+/* Review section  */
+
+.rating{
+    background-color: hsl(300, 24%, 96%);
+    border-radius:1em;
+    color:hsl(300, 43%, 22%);
+    font-weight:700;
+    font-size:.8em;
+    padding: 1em;
+    padding-top:2em;
+    margin:1em;
+    margin-bottom:4em;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rating h2{
+    font-weight:700;
+    font-size:.9em;
+}
+
+.fa-star{
+    color: #ed9145;
+}
+
+/* Review section */
+
+.review{
+    background-color:hsl(300, 43%, 22%); 
+    border-radius:1em;
+    margin:1em;
+    padding:1.5em;
+    color:hsl(0, 0%, 100%);
+    text-align:left;
+    font-size:.75em;
+
+}
+
+img{
+    border-radius:50%;
+    width: 40px;
+    height:40px;
+    margin-right: 1.5em;
+}
+.name{
+    margin-bottom: .3em;
+}
+.verified{
+    color:hsl(333, 80%, 67%);
+    margin-top:.3em;
+}
+
+.review-header{
+   display: flex;
+   align-items:center;
+   margin:1em;
+}
+.review-text{
+    margin:1em;
+}
+ .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+
+  @media (min-width:992px) {
+   main{
+       display:flex;
+       flex-direction:column;
+       width:100%;
+       align-items: center;
+   }
+   .jumbotron{
+       width:70%;
+       display:flex;
+       justify-content: space-between;
+   }
+   header{
+       width:50%;
+       text-align:left;
+       margin-left:0;
+   }
+   h1{
+       font-size: 3em;
+       padding:0;
+       margin-left:0;
+       
+   }
+  header p{
+       margin:0;
+   }
+   .rating{
+       border-radius: .5em;
+       margin: 2em 0;
+       padding:.5em 5em;
+       flex-direction: row;
+       position:relative;
+   }
+
+   .rating-review{
+       margin-top:5em;
+       right:6em;
+   }
+
+   .report-guru{
+       right:3em;
+   }
+   .best-in-tech{
+
+}
+   .stars{
+       margin-right: 2em;
+   }
+   .reviews{
+    margin: 4em 0;
+    margin-left:0;
+    padding:0;
+    display:flex;
+    justify-content: space-between;
+    width:72%;
+
+}
+.review{
+
+    position:relative;
+}
+.review-one{
+    align-self: start;
+}
+.review-two{
+    top:2em;
+}
+.review-three{
+    top:4em;
+}
+
+footer{
+    justify-self:end;
+}
+  }
+
+  
